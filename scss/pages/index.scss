@@ -15,6 +15,10 @@
     }
 
     @include media-min(desktop) {
+      row-gap: to-rem(64);
+    }
+
+    @include media-min(1920px) {
       row-gap: to-rem(96);
     }
 
@@ -43,7 +47,11 @@
           font-size: 6vw; //gambiarra pra letra ir crescendo
         }
 
-        @include media-min(1366px) {
+        @include media-min(desktop) {
+          font-size: to-rem(64);
+        }
+
+        @include media-min(1920px) {
           font-size: to-rem(80);
         }
 
