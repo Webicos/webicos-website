@@ -5,18 +5,14 @@ footer {
 
   .container {
     justify-content: center;
-    
+
     .footer-info {
       display: flex;
       align-items: center;
       column-gap: to-rem(16);
       color: var(--webicos-white);
-      font-size: to-rem(14);
-
-      @include media-min(small) {
-        font-size: to-rem(16);
-      }
-
+      font-size: to-rem(16);
+      
       @include media-min(medium) {
         font-size: to-rem(20);
       }
