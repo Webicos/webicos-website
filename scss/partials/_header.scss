@@ -1,0 +1,18 @@
+@use "../abstracts" as *;
+
+.header {
+  padding: to-rem(18) 0;
+  top: 0;
+
+  .container {
+    .button-text--opacity {
+      opacity: .72;
+      display: none;
+      
+      @include media-min(small) {
+        display: inline-block;
+        padding-right: to-rem(4);
+      }
+    }
+  }
+}

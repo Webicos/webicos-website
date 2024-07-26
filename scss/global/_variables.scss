@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Clash Display';
+  font-style: normal;
+  src: url('../assets/fonts/ClashDisplay-Variable.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'Clash Grotesk';
+  font-style: normal;
+  src: url('../assets/fonts/ClashGrotesk-Variable.woff2') format('woff2')
+}
+
+:root {
+  //TYPE ================================
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --semibold: 600;
+  --bold: 700;
+
+  --primary-font: "Clash Display", sans-serif;
+  --secondary-font: "Clash Grotesk", sans-serif;
+
+  //COLORS ================================
+  --webicos-dark-blue: #010C1A;
+  --webicos-white: #FFF;
+  --webicos-dark-gray: #3B4859;
+  --webicos-dark-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(153, 153, 153, 0.16) 100%);
+}
