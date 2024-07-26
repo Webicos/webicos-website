@@ -1,17 +1,27 @@
 @use "../abstracts" as *;
 
 .header {
-  padding: to-rem(18) 0;
   top: 0;
 
   .container {
-    .button-text--opacity {
-      opacity: .72;
-      display: none;
+    justify-content: space-between;
+
+    .button {
+      padding: to-rem(6) to-rem(6) to-rem(6) to-rem(18);
       
-      @include media-min(small) {
-        display: inline-block;
-        padding-right: to-rem(4);
+      .material-symbols-outlined {
+        padding-right: 0;
+        margin-left: to-rem(8);
+        background: var(--webicos-white);
+        color: var(--webicos-dark-blue);
+        font-size: to-rem(16);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: to-rem(24);
+        height: to-rem(24);
+        border-radius: 50%;
+        transform: rotate(-45deg);
       }
     }
   }

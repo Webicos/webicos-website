@@ -1,18 +1,11 @@
 @use "../abstracts" as *;
 
 footer {
-  padding: to-rem(16) 0;
   bottom: 0;
 
-  @include media-min(medium) {
-    padding: to-rem(32) 0;
-  }
-
-  @include media-min(desktop) {
-    padding: to-rem(72) 0;
-  }
-
   .container {
+    justify-content: center;
+    
     .footer-info {
       display: flex;
       align-items: center;
